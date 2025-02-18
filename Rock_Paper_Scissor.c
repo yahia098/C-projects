@@ -29,7 +29,7 @@ int main() {
     Choice_cpu(R);
     if ((input - R) == 1 || (input - R) == -2) {
       printf("you won !! \n");
-    } else if ((input - R) == -1) {
+    } else if ((input - R) == -1||(input-R)==2) {
       printf("you lost !! \n");
     } else {
       printf("tie \n");
